@@ -1,0 +1,3 @@
+./t_00_clean_environment.sh &&
+./t_01_get_branches.sh &&
+./t_02_question_did_get_branches_work.sh 
