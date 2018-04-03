@@ -1,0 +1,2 @@
+# non destructive operation, but you will be on your last branch.
+count=0; previous="empty"; cat .yourfile.txt | while read line ; do git checkout $line; git pull; done;
