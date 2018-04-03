@@ -1,4 +1,5 @@
 count=0; previous="empty"; 
+cd dirty_cadmus;
 cat .yourfile.txt | while read line ; 
 do git checkout $line && git pull &&
 if [ "$count" -gt "1" ] 
