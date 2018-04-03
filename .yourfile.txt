@@ -1,7 +1,7 @@
 1-problems
-1-solutions
-2-router-workshop
+1-soliutions
 2-directory-structure
+2-router-workshop
 3-directory-structure-controller-problems
 dev
-test
+master
