@@ -6,4 +6,4 @@ if [ "$count" -gt "1" ]
 then
   git checkout $line && git merge $previous
 fi; 
-previous=$line; count=$(($count+1)); echo $count; done
+previous=$line; count=$(($count+1)); echo $count; done || exit 1
